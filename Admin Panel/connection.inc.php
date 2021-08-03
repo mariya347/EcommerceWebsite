@@ -1,6 +1,6 @@
 <?php
 session_start();
-$con=mysqli_connect("localhost","root","","ecom");
+$con=mysqli_connect("remotemysql.com","FByoewkuCV","0tf3smZiAu","FByoewkuCV");
 define('SERVER_PATH',$_SERVER['DOCUMENT_ROOT'].'/webmakeup/');
 define('SITE_PATH','http://127.0.0.1/webmakeup/');
 
